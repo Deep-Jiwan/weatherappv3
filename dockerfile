@@ -7,7 +7,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 COPY ./app .
 
-RUN rm -f logs/mylogs.log && touch logs/mylogs.log
+RUN rm logs/mylogs.log && touch logs/mylogs.log
 
 RUN cd /src/weatherapp/app
 
