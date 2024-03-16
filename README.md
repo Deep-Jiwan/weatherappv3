@@ -10,9 +10,10 @@ How to use:
 
 Local Dev:
 1. Clone the repo
-2. Create a file .env for environment variables using the template
-3. Add your api keys for relevant features
-4. Install the requirements  
+2. Create a python dev environment using venv. Select it (/venv/scripts/python.exe) as the interpreter
+3. Create a file /.env for environment variables using the template
+4. Add your api keys for relevant features to the .env file
+5. Install the requirements  
       ` pip install --no-cache-dir -r requirements.txt`  
 6. Run the app/main.py
 
