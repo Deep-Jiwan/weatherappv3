@@ -20,14 +20,15 @@ Local Dev:
 Docker Container
 1. Pull the image
    `docker pull dmjiwan/weatherappv3:latest`
+   `docker pull dmjiwan/weatherappv3:arm64` for arm based systems ( Raspberry Pi )
    OR
     `github`
-2. Run the image in a container while making sure to add the following environment variables and associated api keys
+3. Run the image in a container while making sure to add the following environment variables and associated api keys
    `tele_logger_token`
    `tele_logger_chat_id`
    `weather_api_token`
    `tele_chat_bot_token`
-3. The service is ready to use
+4. The service is ready to use
 
 
 
