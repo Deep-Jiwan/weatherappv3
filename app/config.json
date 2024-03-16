@@ -1,0 +1,10 @@
+{
+    "weather": {
+        "API": "your-api-here",
+        "request_count": 0,
+        "total_count": 0
+    },
+    "telegram": {
+        "API": "your-api-here"
+    }
+}
